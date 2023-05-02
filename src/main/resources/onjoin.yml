@@ -1,0 +1,8 @@
+command:
+  - give %player% apple 1
+  - say welcome %player%
+items:
+  - diamond 32
+  - diamond_sword 1
+msg_player:
+  - Welcome %player%! I hope you like this server.

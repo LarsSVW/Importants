@@ -1,0 +1,389 @@
+#=================================================================================================#
+#     Messages file von dem Importants plugin erstellt von Lars_SVW. Version 1.0.0 #deutsch
+#=================================================================================================#
+#
+#    Falls du hilfe oder sonstiges brauchst
+#    joine gerne meinem discord: http://discord.lars-svw.de
+#
+#    Du kannst mir ebenfalls eine private Nachricht schreiben auf discord: Lars_SVW#0001
+#    Oder schreibe mir auf SpigotMc: https://www.spigotmc.org/members/lars__svw.1064569/
+#
+
+#=================================================================================================#
+#   Generelle Informationen:
+#=================================================================================================#
+#   Du kannst alles bearbeiten aber bitte vergesse " nicht falls welche gegeben sind.
+#   Dieses Plugin darf auf Servern benutzt werden, ich würde mich freuen falls ihr wenigstens
+#   Werbung für dieses Plugin auf eurem Server machen könnt müsst es aber nicht.
+#   Ich garantiere nicht dass das Plugin keine Fehler hat, falls es welche gibt meldet euch bitte
+#   bei mir. Falls es sonstige Probleme gibt übernehme ich ebenfalls keine Haftung!
+#   Dieses Plugin darf nicht erneut hochgeladen werden oder an andere Personen verkauft werden!
+#   Falls du das Plugin für eine andere Version benötigst kontaktiere mich mit den oben genannten
+#   Optionen. Am liebsten per Discord. Viel Spaß noch mit dem Plugin :D
+
+#=================================================================================================#
+#   Farbcodes und Zeitinformationen:
+#=================================================================================================#
+#   &0 = Schwarz          &a = Hellgrün   &o = Italic(Cursiv)           Zeit Informationen:
+#   &1 = Dunkelblau       &b = Aqua           &r = Reset                In manchen Einstellungen
+#   &2 = Dunkelgrün       &c = Rot                                      kann es sein dass du den
+#   &3 = Dunkles Aqua     &d = Pink                                     cooldown einstellen musst.
+#   &4 = Dunkelrot        &e = Gelb                                     Du musst alle zeiten in
+#   &5 = Lila             &f = Weiß                                     sekunden angeben. Also sind
+#   &6 = Gold             &k = Durchgehend veränderte Zeichen           hier wichtige Zeit infos
+#   &7 = Grau             &l = Dick                                     1min = 60s,5min=300s
+#   &8 = Dunkelgrau       &m = Durchgestrichen                          10min = 600s, 30min = 1800s
+#   &9 = Indigo           &n = Unterstrichen                            1h = 3600s, 1d = 86400
+#
+
+#=================================================================================================#
+# Haupt Nachrichten:
+#=================================================================================================#
+prefix: "&0&l[&eImportants&0&l]"
+not_online: "&cDer Spieler ist nicht online."
+only_player: "&cSpieler nicht gefunden."
+not_a_player: "&cNur Spieler können diesen Command ausführen"
+no_permission: "&cDu hast dazu keine Berechtigung"
+wrong_usage: "&cFalsche Benutzung! Richtige Benutzung:"
+help_message: "&aFalls du Hilfe benötigst oder Vorschläge für mein Plugin hast joine gerne meinem Discord. [http://discord.lars-svw.de]"
+reload_success: "&eErfolgreich alle Plugin Dateien erneut geladen"
+invalid_page: "&cUngültige Seiten Nummer!"
+invalid_amount: "&cUngültiger Betrag! Bitte trage einen korrekten Betrag ein."
+
+#=================================================================================================#
+# Join/Leave + Fake Join/Leave Nachrichten
+#=================================================================================================#
+firstjoin-message: "&0&l[&9&l+&0&l] &a%player% hat den Server das erste mal betreten."
+join-message: "&0&l[&9&l+&0&l] &a%player% hat den Server betreten."
+leave-message: "&0&l[&4&l-&0&l]&c%player% hat den Server verlassen."
+
+#=================================================================================================#
+# Home Messages
+#=================================================================================================#
+home_delete: "&aHome %home% erfolgreich gelöscht."
+home_not_found: "&cHome %home% wurde nicht gefunden."
+no_homes_set: "&cDu hast noch keine Homes gesetzt."
+your_homes: "&aDeine Homes:"
+homes_list: "&a- %home%" #Bitte bearbeite dies nur falls dringend nötig.[ist eigentlich unnötig]
+teleported_home: "&aDu wurdest zu deinem Home mit dem namen %home% teleportiert."
+maximum_homes: "§cDu hast die maximale Anzahl an Homes erreicht!"
+home_set: "&aHome %home% wurde erfolgreich gesetzt."
+
+#=================================================================================================#
+# Kit Messages
+#=================================================================================================#
+kit_not_exist: "&cDas kit %kit% existiert nicht."
+kit_received: "&aDu hast das kit %kit% erhalten."
+no_item: "&cIn dem ausgewähltem Slot ist kein Item vorhanden."
+invalid_type: "&cUngültiger type: %type% (Gültige types: slot,inventory)"
+kit_created: "&aKit erstellt: %kit%"
+provide_del_name: "&cBitte gebe den Namen des Kits an welches du löschen willst."
+kit_deleted: "&cDu hast erfolgreich das kit %kit% gelöscht."
+
+#=================================================================================================#
+# Message-Commands Messages
+#=================================================================================================#
+announce_prefix: "&6&lAnkündigung"
+announce_design: "&7#==================================#"
+broadcast_prefix: "&6&lInfo für alle Spieler"
+broadcast_design: "&7#==================================#"
+broadcast_send: "&aBroadcast erfolgreich gesendet."
+chat_cleared: "&eDer Chat wurde von &6%player% &egelöscht"
+chat_cleared_success: "&aDer chat wurde gelöscht."
+msg_design_sender: "&0&l[&aDu &7--> &a%target%&0&l] &f%message%"  #Falls du beide Spielernamen statt dem "Du" haben willst musst nur für den sender "%sender%" einfügen und für das target "%target%"
+msg_design_target: "&0&l[&a%sender% &7--> &aDir&0&l] &f%message%"
+
+#=================================================================================================#
+# Moderation Nachrichten
+#=================================================================================================#
+banned_successfully: "&aDu hast &4&l%player% erfolgreich gebannt!"
+already_banned: "&cDieser Spieler ist bereits gebannt!"
+ban_message: "&cDu wurdest gebannt!"
+kick_reason: "&cKeine Begründung"
+kicked_msg: "&cDu wurdest aus folgendem Grund gekickt: %reason%"
+kick_success: "&aDu hast erfolgreich &4&l%target% &agekickt!"
+unit_options: "&cUnit optionen: s, m, h, d, w, mo"
+invalid_unit: "&cDiese Unit ist ungültig!"
+tempban_message: "&cDu wurdest auf diesem Server temporär gebannt aus folgendme Grund: %reason%"
+ban_expires: "&cDein Ban läuft ab in: "
+unbanned: "&a%player% wurde entbannt."
+unbanned_ip: "&aAlle Spieler mit der IP Adresse %ip% wurden entbannt."
+ip_not_found: "&cDer Spieler oder die IP Adresse wurden in der Ban-Liste nicht gefunden."
+provide_ip: "&cBitte gebe eine IP Adresse an.."
+warnings_amount: "&a%player% hat %amount% Warnungen."
+warned_someone: "&aDu hast %target% gewarnt aus folgendem Grund: %reason%"
+warning_receive: "&aDu wurdest von %player% verwarnt für %reason%"
+all_warnings_removed: "&aAlle Warnungen von %player% wurden entfernt"
+amount_warnings_removed: "&aEs wurden %amount% Verwarnungen von %player% entfernt"
+warning_must_positive: "&aDie Warnungs Nummer muss im Positiven Bereich sein."
+
+#=================================================================================================#
+# Moderation Messages
+#=================================================================================================#
+no_reports: "&cEs gibt keine Reports."
+report_list: "&aReport Liste (page %page% of %maxpage%) :"
+reports: "&aReport # %i%: %player% -  %reason%"
+report_deleted: "&aReport #%reportnum% wurde gelöscht."
+report_not_exist: "&aReport #%reportnum% existiert nicht."
+report_invalid_num: "&cUngültige Report Nummer"
+report_submitted: "&aReport erfolgreich eingereicht. Danke dass du unseren Server sauber hältst."
+new_report: "&aEiner neuer Report ist eingegangen. Bitte benutze &4/report check &aum dir die Reports anzuzeigen."
+
+#=================================================================================================#
+# Sit Messages
+#=================================================================================================#
+sit_msg: "&aDu hast dich hingesetzt"
+
+
+#=================================================================================================#
+# ShortCut-Command Messages
+#=================================================================================================#
+ec_other: "&aDu hast die Enderchest von %player% geöffnet"
+survival_mode: "&aDu bist jetzt im Überlebensmodus."
+survival_mode_other: "&a%player% is jetzt im Überlebensmodus."
+creative_mode: "&aDu bist jetzt im Kreativmodus."
+creative_mode_other: "&a%player% ist jetzt im Kreativmodus."
+adventure_mode: "&aDu bist jetzt im Abenteuermodus"
+adventure_mode_other: "&a%player% ist jetzt im Abenteuermodus."
+spectator_mode: "&aDu bist jetzt im Zuschauermodus."
+spectator_mode_other: "&a%player% ist jetzt im Zuschauermodus."
+invalid_gamemode: "&aUngültiger Spielmodus! Bitte gebe eine Zahl von 0-3 an."
+
+#=================================================================================================#
+# Spawn/Hub/Lobby-Command Messages
+#=================================================================================================#
+no_hub_set: "&cKein Hub wurde gesetzt!"
+hub_teleport: "&aErfolgreich zum Hub teleportiert."
+hub_set: "&aHub erfolgreich gesetzt!"
+no_lobby_set: "&cKeine Lobby wurde gesetzt!"
+lobby_teleport: "&aErfolgreich zur Lobby teleportiert!"
+lobby_set: "&aLobby erfolgreich gesetzt!"
+no_spawn_set: "&cKein Spawn wurde gesetzt!"
+spawn_teleport: "&aErfolgreich zum Spawn teleportiert!"
+spawn_set: "&aSpawn erfolgreich gesetzt!"
+all_set: "&aDu hast erfolgreich den Spawn, die Lobby !"
+
+#=================================================================================================#
+# Teleport-Commands Messages
+#=================================================================================================#
+no_previous_location: "&cDu hast keine vorherige Location wo du hin kannst!"
+teleported_back: "&aDu wurdest zu deinem letzten Punkt teleportiert."
+tpahere_accept: "&aDu wurdest zu %player% teleportiert"
+tpa_accepted: "&a%player% hat deine TPA Anfrage akzeptiert."
+tpa_teleported_here: "&a%player% wurde zu dir teleportiert!"
+tpa_send: "&aTpa Anfrage wurde erfolgreich zu %player% gesendet."
+tpa_received: "&a%target% will sich zu dir teleportieren. Gebe /tpaccept oder /tpdecline zum antworten ein."
+tpa_here_received: "&e%player% will dass du dich zu ihm teleportierts! Gebe /tpaccept oder /tpdecline zum antworten ein."
+tpa_here_send: "&eTpa Anfrage wurde zu %player% gesendet."
+tpa_declined: "&eDu hast die TPA Anfrage von %player% abgelehnt."
+tpa_declined_target: "&e%player% hat deine TPA anfrage abgelehnt."
+
+#=================================================================================================#
+# Warp-Commands Messages
+#=================================================================================================#
+warp_set: "&eWarp %warp% erfolgreich gesetzt."
+warp_no_name: "&eBitte gebe eine korrekten Namen für das Warp ein."
+warp_deleted: "&aDu hast erfolgreich ein Warp gelöscht. Gelöschtes Warp: %warp%"
+warp_not_exist: "&cDas Warp %warp% existiert nicht."
+
+#=================================================================================================#
+# Godmode-Command Messages
+#=================================================================================================#
+godmode_deactivated: "&aDein Godmode wurde deaktiviert."
+godmode_activated: "&aDein Godmode wurde aktiviert."
+godmode_activated_other: "&a%player% hat den Godmode aktiviert."
+godmode_deactivated_other: "&a%player% hat den Godmode deaktiviert."
+godmode_activated_other_sender: "&aGodmode aktiviert für %player%"
+godmode_activated_other_target: "&aDein GodMode wurde von %player% aktiviert."
+
+#=================================================================================================#
+# AFK-Command Messages
+#=================================================================================================#
+afk_remove: "&7%player% ist nicht mehr AFK."
+afk: "&7%player% ist jetzt AFK"
+afk_tablist: "&0&l[&7AFK&0&l] &7 %player%"
+
+#=================================================================================================#
+# Clear-Command Messages
+#=================================================================================================#
+inventory_cleared: "&aDein Inventar wurde gelöscht."
+clear_player_not_found: "&cSpieler %player% nicht gefunden."
+cleared_player: "&cDas Inventar von %player% wurde gelöscht."
+
+#=================================================================================================#
+# Heal/feed-Command Messages
+#=================================================================================================#
+feed_self: "&aDu hast dich selbst gefüttert."
+feed_other: "&aDu hast %player% gefüttert."
+feed_other_target: "&aDu wurdest gefüttert."
+healed: "&aDu hast dich selbst geheilt.."
+healed_other: "&aDu hast %player% geheilt."
+healed_other_target: "&aDu wurdest von %player% geheilt."
+
+#=================================================================================================#
+# Travel-Command Messages
+#=================================================================================================#
+fly_message: "&aDer Status ob der Spieler fliegt: %flyingstatus%"
+fly_self_deactivated: "&aDu kannst jetzt nichtmehr fliegen."
+fly_self_activated: "&aDu kannst jetzt fliegen."
+no_block_in_range: "&cDer Block den du anschaut ist nicht in range."
+jump_success: "&aDu wurdest zu dem Block teleportiert wo du gerade hinschaust."
+
+#=================================================================================================#
+# Item-Command Messages
+#=================================================================================================#
+no_itemname: "&cBitte gebe einen neuen Namen für das Item ein."
+item_renamed: "&aItem erfolgreich umbenannt."
+no_item_in_hand: "&cDu musst ein Item in deiner Hand halten."
+already_repaired: "&cDieses Item wurde bereits repariert.."
+hand_repaired: "&eAlle Items mit dem Item Typ in deiner Hand wurden repariert.."
+all_repaired: "&eAlle Items in deinem Inventar wurden repariert."
+
+#=================================================================================================#
+# Mob-Command Messages
+#=================================================================================================#
+all_mobs_killed_type: "&aAlle %mobs% wurden getötet."
+all_mobs_killed: "&aAlle Mobs wurden getötet."
+Invalid_Mob: "&cDu hast einen ungültigen Mob angegeben!"
+Invalid_Amount: "&cDu hast einen falschen Betrag angegeben!"
+Failed_to_spawn: "&cEs gab einen Fehler beim Spawnen der Mobs."
+Spawned: "&eSpawned"
+
+#=================================================================================================#
+# Weather/time-Command Messages
+#=================================================================================================#
+world_not_found: "&cWelt nicht gefunden!"
+time_day: "&aZeit auf Tag gesetzt"
+time_night: "&aZeit auf Nacht gesetzt"
+weather_clear: "&aJetzt scheint die Sonne"
+weather_rain: "&aEs regnet nun"
+weather_thunder: "&aEs gewittert nun"
+
+#=================================================================================================#
+# Word/-CMD Block-Command Messages
+#=================================================================================================#
+command_null: "&cDu musst einen Command angeben."
+word_null: "&cDu musst ein Wort angeben"
+not_allowed: "&cDieses Wort/dieser Command ist nicht erlaubt."
+addedcmd: "&aDu hast den Command %cmd% zu der Command Blacklist hinzugefügt."
+addedword: "&aDu hast das Wort %word% zu der Wort Blacklist hinzugefügt."
+
+#=================================================================================================#
+# World-Command Messages
+#=================================================================================================#
+world_created: "&aWelt %worldname% erfolgreich erstellt"
+world_List: "&a=== Welt Liste (Seite %page% / %numpages%) ==="
+world_folder_not_found: "&cEs gab einen Fehler beim löschen folgender Welt: %worldfolder%"
+teleport_world_deleted: "&aDu wurdest zum default Spawn teleportiert weil du dich in einer Welt befunden hast die gerade gelöscht wurde."
+teleported_world: "&aDu wurdest in folgende Welt teleportiert: %world%"
+#World-Info-Command Messages
+world_info_main: "&a&l&nWelt Info:"
+world_info_name: "&eWelt Name: %world%"
+world_info_spawn_cords: "&eSpawn Location:"
+world_info_spawn_cords_1: "X: %x%"
+world_info_spawn_cords_2: "Y: %y%"
+world_info_spawn_cords_3: "Z: %z%"
+world_info_player_cords: "&eDeine Location"
+world_info_player_cords_1: "X: %x%"
+world_info_player_cords_2: "Y: %y%"
+world_info_player_cords_3: "Z: %z%"
+
+#=================================================================================================#
+# Mob-Catcher Messages:
+#=================================================================================================#
+mob_catcher_name: "&cMob catcher"
+mob_catcher_lore: "&aBenutze dieses Ei um Mobs zufangen!"
+received_mob_catcher: "&aDu hast einen Mob Catcher erhalten!"
+
+#=================================================================================================#
+# Vanish-Command Messages
+#=================================================================================================#
+vanished_other: "&aDu hast %player% gevanished."
+vanished_by_other: "&aDu wurdest von %player% gevanished."
+vanished: "&aDu bist jetzt unsichtbar für andere Leute."
+unvanished: "&aDu bist jetzt sichtbar für andere Leute."
+unvanished_other: "&aSpieler %player% ist jetzt wieder sichtbar für andere Leute."
+
+#=================================================================================================#
+# Killing-Stats Messages
+#=================================================================================================#
+killing_stats_title_monster: "&7--------- &aKilling Stats &7- &aMonster &7---------"
+killing_stats_total_monster_kills: "&aInsgesamte monster kills: %monster%"
+killing_stats_total_zombie_kills: "&aZombies killed: %zombies%"
+killing_stats_total_skeleton_kills: "&aSkelette  killed: %skeleton%"
+killing_stats_total_creeper_kills: "&aCreeper killed: %creeper%"
+killing_stats_total_spider_kills: "&aSpinnen killed: %spider%"
+killing_stats_total_enderman_kills: "&aEndermans killed: %enderman%"
+killing_stats_total_zombified_piglin_kills: "&aZombiefied Piglins killed: %zombified_piglin%"
+killing_stats_total_witch_kills: "&aHexen killed: %witch%"
+killing_stats_total_blaze_kills: "&aLohne killed: %blaze%"
+killing_stats_total_magma_kills: "&aMagma killed: %magma%"
+killing_stats_total_husk_kills: "&aHusk killed: %husk%"
+killing_stats_title_mob: "&7--------- &aKilling Stats &7- &aMobs &7---------"
+killing_stats_total_mob_kills: "&aInsgesamte mob kills: %mobs%"
+killing_stats_total_pig_kills: "&aSchweine killed: %pig%"
+killing_stats_total_cow_kills: "&aKühe killed: %cow%"
+killing_stats_total_sheep_kills: "&aSchafe killed: %sheep%"
+killing_stats_total_chicken_kills: "&aHühner killed: %chicken%"
+killing_stats_total_rabbit_kills: "&aHasen killed: %rabbit%"
+killing_stats_total_horse_kills: "&aPferde killed: %horse%"
+killing_stats_total_donkey_kills: "&aEsel killed: %donkey%"
+killing_stats_total_mule_kills: "&aMaultiere killed: %mule%"
+killing_stats_total_llama_kills: "&aLlamas killed: %llama%"
+killing_stats_total_polar_bear_kills: "&aPolar Bären killed: %polar_bear%"
+killing_stats_total_panda_kills: "&aPandas killed: %panda%"
+killing_stats_total_fox_kills: "&aFüchse killed: %fox%"
+
+#=================================================================================================#
+# Player-Info Messages
+#=================================================================================================#
+player_info_title: "&6&l-----&e&lSpieler Info&6&l-----"
+player_info_name: "&eName: &f%player%"
+player_info_playtime: "&eInsgesamte Spielzeit: %playtime%"
+player_info_online: "&eErstes mal gejoint: §f%date%"
+player_info_location: "&eLocation:"
+player_info_location_x: "X: %x%"
+player_info_location_y: "Y: %y%"
+player_info_location_z: "Z: %z%"
+player_info_world: "&eIn folgender Welt ist der Spieler: §f%world%"
+player_info_health: "&eSpielers Leben: §f%health%"
+player_info_saturation: "&eSpielers Hunger: §f%saturation%"
+
+#=================================================================================================#
+# Economy Messages
+#=================================================================================================#
+current_balance: "&aDein geradiges Geld: &c&l%symbol% %amount%"
+players_current_balance: "&a%player%´s geradiges Geld ist: &c&l%symbol% %amount%"
+invalid_funds: "&cDu hast nicht genug Geld um das zu machen."
+economy_payed: "&aDu hast &c&l%symbol% %amount% &6&l%player% &a überwiesen"
+economy_pay_received: "&a%player% hat dir &c&l%symbol% %amount% &aüberwiesen"
+economy_balance_set: "&aDu hast das Geld von &6&l%player% &aauf &c&l%symbol% %amount% &a gesetzt."
+economy_not_to_yourself: "&cDu kannst dir selbst kein Geld überweisen"
+transaction_failed: "&cTransaktion fehlgeschlagen!"
+qs_inv_hand: "&aBitte gebe an ob du Items aus deinem Inventar oder aus deiner Hand verkaufen willst."
+qs_sold: "&aDu hast Items für &c&l %price% %s% &a verkauft."
+qs_no_sell: "&aDu hast keine Items in deinem Inventar die du verkaufen kannst."
+
+#=================================================================================================#
+# Other-Command Messages
+#=================================================================================================#
+new_nick: "&a%player% neuer Nickname ist %nick%"
+ping: "&aDein Ping:"
+own_head: "&eDu hast deinen eigenen Kopf erhalten."
+target_head: "&aDu hast den kopf von &6&l%player% &aerhalten"
+killed_self: "&cDu hast dich selbst getötet."
+killed_self_broadcast: "&cdu hast suizid begangen."
+Tnt_spawned: "&cTNT wurde an der Stelle gespawnt wo du hingeschaut hast."
+no_sign: "&cDu schaust kein Schild an!"
+invalid_line: "&cDu hast eine ungültige Zeile angegeben."
+sign_updated: "&aSchild erfolgreich geändert!"
+provide_max_hearts: "&cBitte gebe eine maximale Anzahl von Herzen an."
+your_max_hearts: "&aDeine Maximale Herz anzahl beträgt jetzt: %health%"
+other_max_hearts: "&aDie Maximale Herz anzahl von &6&l%player% beträgt jetzt: %health%"
+no_item_hand: "&cDu hast kein Item in der Hand."
+already_hat: "&cDu hast bereits ein Item als Hut. Probiere erst dein geradiges Item auf dem Kopf zu entfernen und probiere es danach erneut."
+hat_wear: "&aDu hast erfolgreich einen Hut aufgesetzt."
+rtp_disabled: "&cDie RTP Funktion ist gerade ausgeschaltet."
+rtp_teleported: "&eDu wurdest zu einer Random Location teleportiert."
+chatbot_cooldown: "&cBitte warte %cooldown% Sekunden bevor du %message% erneut eintippen kannst."
+death_listener: "&a%player% hat dich getötet und hat noch %hearts% verbleibend."

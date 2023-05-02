@@ -1,0 +1,126 @@
+#=================================================================================================#
+#     Config file for the Importants Plugin by Lars_SVW. Version 1.0.0
+#=================================================================================================#
+#=================================================================================================#
+#     Please remember its the first Version if you got any bugs/request etc. let me know
+#=================================================================================================#
+#=================================================================================================#
+#     The language for your messages.yml. Please note you can only choose a few languages
+#     if you want a other language you have to edit it yourself.
+#=================================================================================================#
+language: "languages/en.yml"
+#=================================================================================================#
+#     Death-Chest Options
+#=================================================================================================#
+deathchest_enable: true
+max_items_per_chest: 27
+
+#=================================================================================================#
+#     Time when a player should be marked as AFK. Please remember the time is in seconds.
+#=================================================================================================#
+afk_time: 1200
+
+#=================================================================================================#
+#     Random-Teleport-Infos. Please Note the Radius is from the World Spawnpoint.
+#=================================================================================================#
+Random-Teleport-allow: true
+Max-Block-Teleportation: 5000
+
+
+#=================================================================================================#
+#     Drop-Player-Head [Currently in work]
+#=================================================================================================#
+drop_player_head: true
+send-killer-msg: true
+send-killed-msg: true
+killed_player: "You killed %player%"
+got_killed: "You got killed by %player%"
+drop-chance: 0.75
+
+#=================================================================================================#
+#     OnJoin things.
+#=================================================================================================#
+OnFirstJoin:
+  command:
+    - give %player% minecraft:apple 1
+    - give %player% minecraft:diamond 1
+  item:
+    - STONE 64
+
+first-join-message: '&a%player% hat zum ersten Mal den Server betreten!'
+join-message: '&e%player% hat den Server betreten.'
+leave-message: '&c%player% hat den Server verlassen.'
+OnFirstJoinSpawn: true
+OnJoin: true
+
+#=================================================================================================#
+#     ChatManager stuff.
+#=================================================================================================#
+ChatManager:
+  default:
+    prefix: "&7"
+    permission: "default"
+  Supporter:
+    prefix: "&9[Supporter] &7"
+    permission: "Importants.chat.supporter"
+  Moderator:
+    prefix: "&c[Moderator] &7"
+    permission: "Importants.chat.moderator"
+  Admin:
+    prefix: "&4[Admin] &7"
+    permission: "Importants.chat.admin"
+blocked-commands:
+  - pl
+  - plugins
+  - help
+blocked-words:
+  - nigger
+  - n1gger
+  - n1gg3r
+  - nigg3r
+  - hoe
+  - h0e
+  - ho3
+  - h03
+  - fuck
+  - fvck
+  - cunt
+  - cvnt
+
+Link-Whitelist:
+  - "https://discord.gg/Kg3sbM9"
+
+chatbot_answer_time: 2
+chatbotprefix: "&7ChatBot &9->"
+ChatBot:
+  test:
+    response:
+      - "Ja das ist ein Test."
+    cooldown: 50
+    permission: importants.test
+  ja:
+    response:
+      - "Ja."
+    cooldown: 10
+    permission: importants.ja
+
+#=================================================================================================#
+#     Economy/Quicksell
+#=================================================================================================#
+Quicksell:
+  DIAMOND:
+    Price: 100
+  GOLD_INGOT:
+    Price: 10
+  IRON_INGOT:
+    Price: 5
+  APPLE:
+    Price: 1
+
+economy: "EUR"
+
+#=================================================================================================#
+#     ClearLagg
+#=================================================================================================#
+#If you want that the item gets cleared after 10 seconds please just type 20 in here
+clearlaggtime: 1200
