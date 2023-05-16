@@ -1,0 +1,209 @@
+𝐈𝐦𝐩𝐨𝐫𝐭𝐚𝐧𝐭𝐬 𝐏𝐥𝐮𝐠𝐢𝐧
+In this message you can see all commands/features of the Importants Plugin!
+
+𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬:
+  gm:
+    description: Switch between different gamemodes.
+  craft:
+    description: Opens a crafting table.
+  ec:
+    description: Opens a enderchest.
+  feed:
+    description: Feeds a player.
+  heal:
+    description: Heals a player.
+  itemrename:
+    description: Renames a Item.
+  invsee:
+    description: Opens Inventory of a Player..
+  godmode:
+    description: Makes you invincible.
+  anvil:
+    description: Opens an Anvil.
+  ban-ip:
+    description: Bans a Player´s IP.
+  unban-ip:
+    description: Unbans a Player´s IP.
+tempban:
+    description: Bans a Player temporary.
+  ban:
+    description: Bans a Player.
+kick:
+    description: Kicks a Player.
+  unban:
+    description: Unbans a Player.
+  suicide:
+    description: Kills yourself.
+  tnt:
+    description: Places a exploding tnt.
+  fireball:
+    description: Shoots a Fireball.
+  vanish:
+    description: Makes you invisible for other players.
+  tpa:
+    description: Sends a tp request to a other player.
+  tpdecline:
+    description: Declines the tp request of an other player.
+  tpaccept:
+    description: Accepts the tp request of an other player.
+  tpahere:
+    description: Sends a tp here request to a other player.
+  setall:
+    description: Sets all Spawn points at once. [Hub,Lobby,Spawn]
+  spawn:
+    description: Teleports you to the spawn.
+  setspawn:
+    description: Sets the /spawn point.
+  sethub:
+    description: Sets the /hub point-
+  hub:
+    description: Teleports you to the hub.
+  lobby:
+    description: Teleports you to the lobby.
+  setlobby:
+    description: Sets the /lobby point
+  msg:
+    description: Messages an other player.
+  phead:
+    description: Gives you your own head or from an other player.
+  fly:
+    description: Lets you fly or is letting someone else fly
+  setwarp:
+    description: Creates an Warp
+  warp:
+    description: Teleports you to the warp.
+  delwarp:
+    description: Deletes an warp
+  sethome:
+    description: Creates an Home for yourself.
+  delhome:
+    description: Deletes an home.
+home:
+    description: Teleports you to an home.
+  kit:
+description: Gives you an kit.
+  kitcreate:
+    description: Creates an kit.
+  kitdelete:
+    description: Deletes an kit.
+  back:
+    description: Teleports you to your last location.
+  time:
+    description: Sets the time for the world you are in.
+  weather:
+    description: Sets the weather for the world you are in.
+  spawnmob:
+    description: Spawns an mob.
+  killall:
+    description: Kills all mobs/mobtypes.
+  broadcast:
+    description: Sends an message to all players on the Server.
+  repair:
+    description: Repairs your items in your hand/all.
+  clear:
+    description: Clears your inventory or of an other player.
+  jump:
+    description: Teleports you to the location you looking at.
+  ping:
+    description: Sends you a message with your current ping.
+  nick:
+    description: Gives you an "fake" name.
+  clearchat:
+    description: Clears the chat.
+  afk:
+    description: Sends a message to all Players that youre afk right now.
+  announce:
+    description: Sends an announcement to all players.
+  filter:
+    description: If you add words/commands with this command the user cant execute/write these.
+  ireload:
+    description: Reloads the Plugin.
+  importants:
+    description: Shows an help Menu.
+  signedit:
+    description: Edits a sign youre looking at.
+  world:
+    description: Creates new world
+  rtp:
+    description: Random teleports you to a location nearby.
+  catchmob:
+    description: Gives you an egg which you can use to capture mobs.
+  hat:
+    description: You can wear items as a hat.
+pinfo:
+    description: Shows you some information about the player.
+  delreport:
+    description: If you controlled a report you can delete the report.
+  checkreport:
+    description: With this command you can see all reports.
+  report:
+    description: With this command you can report other players.
+  economy:
+    description: You can set money or do other things like give money or whatever.
+  fake:
+    description: Can do a fake join or fake leave.
+  warn:
+    description: This Command is warning an other player.
+  balance:
+    description: Shows you your own balance.
+  pay:
+    description: Let´s you pay an other person.
+  quicksell:
+    description: Quicksells items in your hand or from your inventory.
+  money:
+    description: Shows you your own balance.
+  eco:
+    description: You can set money or do other things like give money or whatever.
+  exhealth:
+    description: Gives you extrahealth.
+  killingstats:
+    description: Sends you killingstats.
+  sit:
+    description: Makes you sit where youre standing.
+  kickall:
+    description: Kicks all players on the Server including you.
+  sun:
+    description: Sets the weather to sunshine.
+  rain:
+    description: Sets the weather to rain.
+  thunder:
+    description: Sets the weather to thunder.
+  night:
+    description: Changes the time to night.
+  day:
+   description: Changes the time to day.
+𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬:
+  Chatbot:
+    description: Replies automatically to messages.
+  ChatColor:
+    description: People with the right permission can write in color.
+  ChatManager:
+    description: You can add prefix and other stuff in front of a player.
+  Join/LeaveListener:
+    description: Checks if a player Leaves or joins.
+  LinkBlocker:
+    description: Prevents user to promote other Server or websites.
+  AFKListener:
+    description: Checks if a user is AFK.
+  CarryListener:
+    description: You can carry mobs.
+  DeathChestListener:
+    description: Creates a deathchest when you died.
+  DeathListener:
+    description: If you died you get a message with the amount of hearts of the other player.
+   Items on Join:
+    description: Gives you items on join.
+  MobcatcherListener:
+    description: You can catch mobs just like a pokemon.
+  OreMiningListener:
+    description: Mines a entire veine.
+  SeatListener:
+    description: Lets you sit on stairs and slabs.
+  SignColorListener:
+    description: Lets you write with color on signs.
+  SpawnerListener:
+    description: Allows you to drop spawners.
+  TreeCuttingListener:
+    description: Allows you to chops a entire tree.
+
+Please don't forget that you need the right permission for 99% of the commands and listeners, but these are very obvious because the permission is always called the same as the command, but if you have any questions, feel free to ask on the discord.
